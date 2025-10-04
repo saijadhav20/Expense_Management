@@ -1,4 +1,36 @@
 # EXPENZO
+> Developed for **Odoo Hackathon 2025**  
+> Team Name: **CodeX**
+
+---
+
+## 👨‍💻 Team Details
+
+**Team Name:** CodeX  
+
+| Member Name | Role | Contribution |
+|--------------|------|--------------|
+| [Sai Jadhav] | Full Stack Developer | Frontend (React, Tailwind), Backend Integration |
+| [Sania Khan] | Backend Developer | Node.js APIs, Database Schema (PostgreSQL) |
+| [Saket Patayeet] | UI/UX Designer | Wireframes, Component Layout, Styling |
+| [Mrudul Sakharkar] | DevOps / Testing | Version Control, Deployment Setup, QA |
+
+---
+
+## 🧑‍🏫 Reviewer
+
+**Reviewer Name:** [Aman Patel]
+
+---
+
+## 🎥 Video Presentation
+
+🔗 **[Watch Our 5-Minute Demo Presentation Here](PASTE_YOUR_VIDEO_LINK_HERE)**
+
+---
+
+## 🗂️ Repository Structure
+
 
 A minimal, responsive Expense Management System built using React.js + TailwindCSS+PostGRE+Express.js+Javascript+TypeScript, designed for company-wide expense tracking and sequential approval workflows.
 
