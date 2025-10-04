@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS expenses CASCADE;
+
 CREATE TABLE IF NOT EXISTS expenses (
     expense_id SERIAL PRIMARY KEY,
     employee_id INT NOT NULL REFERENCES users(user_id) ON DELETE CASCADE,
@@ -11,5 +13,6 @@ CREATE TABLE IF NOT EXISTS expenses (
     expense_date DATE NOT NULL,
     receipt_url TEXT,
     status VARCHAR(20) CHECK (status IN ('Draft','Pending','Approved','Rejected')) DEFAULT 'Pending',
+    manager_comment TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

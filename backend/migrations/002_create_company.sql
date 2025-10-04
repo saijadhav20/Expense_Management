@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS company CASCADE;
+
 CREATE TABLE IF NOT EXISTS company (
     company_id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -6,7 +8,6 @@ CREATE TABLE IF NOT EXISTS company (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Add the foreign key link from users → company now that company exists
 ALTER TABLE users
 ADD CONSTRAINT fk_user_company
 FOREIGN KEY (company_id) REFERENCES company(company_id) ON DELETE CASCADE;
