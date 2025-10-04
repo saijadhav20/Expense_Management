@@ -1,5 +1,8 @@
-const { Pool } = require("pg");
-require("dotenv").config();
+import pkg from "pg";
+import dotenv from "dotenv";
+dotenv.config();
+
+const { Pool } = pkg;
 
 // Create a new connection pool
 const pool = new Pool({
@@ -20,4 +23,4 @@ pool.connect()
     console.error("❌ PostgreSQL connection error:", err.stack);
   });
 
-module.exports = pool;
+export default pool; // ✅ ES module export

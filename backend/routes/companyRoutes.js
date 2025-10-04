@@ -1,0 +1,10 @@
+import express from 'express';
+import { addUserToCompany } from '../controllers/companyController.js';
+import { protect, authorize } from '../middleware/authMiddleware.js';
+
+const router = express.Router();
+
+// Only admin can add users
+router.post('/add-user', protect, authorize(['admin']), addUserToCompany);
+
+export default router;
