@@ -10,16 +10,16 @@
 
 | Member Name | Role | Contribution |
 |--------------|------|--------------|
-| [Sai Jadhav] | Full Stack Developer | Frontend (React, Tailwind), Backend Integration |
-| [Sania Khan] | Backend Developer | Node.js APIs, Database Schema (PostgreSQL) |
-| [Saket Patayeet] | UI/UX Designer | Wireframes, Component Layout, Styling |
-| [Mrudul Sakharkar] | DevOps / Testing | Version Control, Deployment Setup, QA |
+| Sai Jadhav | Full Stack Developer | Frontend (React, Tailwind), Backend Integration |
+| Sania Khan | Backend Developer | Node.js APIs, Database Schema (PostgreSQL) |
+| Saket Patayeet | UI/UX Designer | Wireframes, Component Layout, Styling |
+| Mrudul Sakharkar | DevOps / Testing | Version Control, Deployment Setup, QA |
 
 ---
 
 ## 🧑‍🏫 Reviewer
 
-**Reviewer Name:** [Aman Patel]
+**Reviewer Name:** Aman Patel
 
 ---
 
