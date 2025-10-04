@@ -24,3 +24,7 @@ pool.connect()
   });
 
 export default pool; // ✅ ES module export
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8584c13e34807ce8b0d680ed1cea1cb1c0e64770
